@@ -32,7 +32,7 @@ const libros = [
     autor:"Kathy Sierra",
     categoria:"Programacion",
     anio:2005,
-    portada:"img/libros/headFirstJava.jpg",
+    portada:"img/libros/HeadFirstJava.jpg",
     descripcion:"Aprende Java de manera visual y dinámica mediante ejemplos fáciles de comprender."
 },
 {
@@ -41,7 +41,7 @@ const libros = [
     autor:"Andrew Hunt",
     categoria:"Programacion",
     anio:1999,
-    portada:"img/libros/thePragmaticProgrammer.jpg",
+    portada:"img/libros/ThePragmaticProgrammer.jpg",
     descripcion:"Consejos y estrategias para convertirse en un desarrollador profesional y eficiente."
 },
 
@@ -97,7 +97,7 @@ const libros = [
     autor:"Antoine de Saint-Exupery",
     categoria:"Literatura",
     anio:1943,
-    portada:"img/libros/elPrincipito.jpg",
+    portada:"img/libros/ElPrincipito.jpg",
     descripcion:"Historia clásica que explora la amistad, el amor y el significado de la vida."
 },
 {
@@ -170,7 +170,7 @@ const libros = [
     autor:"Stephen Hawking",
     categoria:"Ciencia",
     anio:2001,
-    portada:"img/libros/cascaraNuez.jpg",
+    portada:"img/libros/CascaraNuez.jpg",
     descripcion:"Exploración de conceptos avanzados de física moderna explicados de forma sencilla.",
 },
 {
@@ -207,7 +207,7 @@ const libros = [
     autor:"Robert Kiyosaki",
     categoria:"Desarrollo Personal",
     anio:1997,
-    portada:"img/libros/padreRicoPadrePobre.jpg",
+    portada:"img/libros/PadreRicoPadrePobre.jpg",
     descripcion:"Introducción a conceptos de educación financiera y generación de riqueza."
 },
 {
