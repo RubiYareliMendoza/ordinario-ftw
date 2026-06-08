@@ -97,7 +97,7 @@ const libros = [
     autor:"Antoine de Saint-Exupery",
     categoria:"Literatura",
     anio:1943,
-    portada:"img/libros/ElPrincipito.jpg",
+    portada:"img/libros/Elprincipito.jpg",
     descripcion:"Historia clásica que explora la amistad, el amor y el significado de la vida."
 },
 {
@@ -152,7 +152,7 @@ const libros = [
     autor:"Carl Sagan",
     categoria:"Ciencia",
     anio:1980,
-    portada:"img/libros/cosmos.jpg",
+    portada:"img/libros/Cosmos.jpg",
     descripcion:"Viaje fascinante por el universo y los descubrimientos científicos de la humanidad."
 },
 {
