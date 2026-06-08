@@ -24,7 +24,14 @@ function mostrarLibros(lista){
 
                 <span>${libro.categoria}</span>
 
-            </div>
+            <a
+            href="detalle.html?id=${libro.id}"
+            class="btn-detalle"
+           >
+           Ver detalles
+        </a>
+
+        </div>
 
         </article>
         
