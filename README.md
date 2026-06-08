@@ -46,6 +46,7 @@ Diseña una biblioteca digital moderna para estudiantes universitarios.
 Genera una interfaz web para una plataforma de libros digitales con categorías y buscador.
 Diseña una página principal para una biblioteca virtual con libros destacados y estadísticas.
 
+<img width="1536" height="1024" alt="ChatGPT Image 7 jun 2026, 10_46_16 p m" src="https://github.com/user-attachments/assets/8ce2524c-06d6-4382-8ec1-a4d3039ff832" />
 
 
 Autor
