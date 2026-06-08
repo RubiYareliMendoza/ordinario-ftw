@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVerse | Catálogo</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 BookVerse
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="autores.html">Autores</a></li>
+            <li><a href="favoritos.html">Favoritos</a></li>
+            <li><a href="estadisticas.html">Estadísticas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="catalogo-header">
+
+        <h1>Catálogo de Libros</h1>
+
+        <p>
+            Explora nuestra colección completa.
+        </p>
+
+    </section>
+
+    <section class="filtros">
+
+        <button class="filtro-btn" data-categoria="Todos">Todos</button>
+
+        <button class="filtro-btn" data-categoria="Programacion">Programación</button>
+
+        <button class="filtro-btn" data-categoria="Tecnologia">Tecnología</button>
+
+        <button class="filtro-btn" data-categoria="Literatura">Literatura</button>
+
+        <button class="filtro-btn" data-categoria="Ciencia">Ciencia</button>
+
+        <button class="filtro-btn" data-categoria="Desarrollo Personal">
+            Desarrollo Personal
+        </button>
+
+    </section>
+
+    <section class="busqueda">
+
+        <label for="buscarLibro">
+            Buscar libro
+        </label>
+
+        <input
+            type="text"
+            id="buscarLibro"
+            placeholder="Escribe un título..."
+        >
+
+    </section>
+
+    <section id="catalogo-libros">
+
+    </section>
+
+</main>
+
+<script src="js/datos.js"></script>
+<script src="js/catalogo.js"></script>
+
+</body>
+</html>

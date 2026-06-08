@@ -28,3 +28,12 @@ destacados.forEach(libro => {
     `;
 
 });
+// ESTADÍSTICAS
+
+document.getElementById("totalLibros").textContent = libros.length;
+
+const categorias = [...new Set(libros.map(libro => libro.categoria))];
+document.getElementById("totalCategorias").textContent = categorias.length;
+
+const autores = [...new Set(libros.map(libro => libro.autor))];
+document.getElementById("totalAutores").textContent = autores.length;

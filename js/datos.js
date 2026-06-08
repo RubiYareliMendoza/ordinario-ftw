@@ -46,7 +46,7 @@ const libros = [
     autor:"Andrew S. Tanenbaum",
     categoria:"Tecnologia",
     anio:2011,
-    portada:"img/libros/redesComputadoras.jpg"
+    portada:"img/libros/RedesComputadoras.jpg"
 },
 {
     id:7,
@@ -144,7 +144,7 @@ const libros = [
     autor:"Richard Dawkins",
     categoria:"Ciencia",
     anio:1976,
-    portada:"img/libros/elGenEgoista.jpg"
+    portada:"img/libros/ElGenEgoísta.jpg"
 },
 {
     id:19,
