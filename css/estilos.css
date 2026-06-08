@@ -597,3 +597,110 @@ td{
 
     color:#d4d4d4;
 }
+
+/* FOOTER */
+
+
+footer{
+
+    background:#071120;
+
+    margin-top:60px;
+
+    padding:40px 20px;
+
+    text-align:center;
+}
+
+.footer-contenido h3{
+
+    color:#f6c344;
+
+    margin-bottom:15px;
+}
+
+.footer-contenido p{
+
+    margin-bottom:10px;
+}
+
+
+/* RESPONSIVE */
+
+
+@media(max-width:768px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+    }
+
+    .menu{
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .hero{
+
+        padding:60px 20px;
+        text-align:center;
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+    }
+
+    .destacados,
+    .beneficios,
+    .estadisticas{
+
+        padding:40px 20px;
+    }
+
+    #catalogo-libros{
+
+        padding:20px;
+    }
+
+    #contenedor-favoritos{
+
+        padding:20px;
+    }
+
+    #contenedor-autores{
+
+        padding:20px;
+    }
+
+    .detalle-container{
+
+        padding:30px;
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .detalle-container img{
+
+        width:250px;
+    }
+
+    .tabla-categorias{
+
+        padding:20px;
+
+        overflow-x:auto;
+    }
+
+    .contacto-container{
+
+        padding:20px;
+    }
+
+}
