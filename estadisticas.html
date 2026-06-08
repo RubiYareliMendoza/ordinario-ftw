@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BookVerse | Estadísticas</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+    <div class="logo">
+        📚 BookVerse
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="autores.html">Autores</a></li>
+        <li><a href="favoritos.html">Favoritos</a></li>
+        <li><a href="estadisticas.html">Estadísticas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="catalogo-header">
+
+    <h1>Estadísticas de la Biblioteca</h1>
+
+    <p>
+        Información general de la colección.
+    </p>
+
+</section>
+
+<section class="estadisticas-grid">
+
+    <article class="estadistica-card">
+        <h2 id="librosTotal"></h2>
+        <p>Total de libros</p>
+    </article>
+
+    <article class="estadistica-card">
+        <h2 id="categoriasTotal"></h2>
+        <p>Categorías</p>
+    </article>
+
+    <article class="estadistica-card">
+        <h2 id="autoresTotal"></h2>
+        <p>Autores</p>
+    </article>
+
+</section>
+
+<section class="tabla-categorias">
+
+    <h2>Libros por categoría</h2>
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Categoría</th>
+                <th>Cantidad</th>
+            </tr>
+
+        </thead>
+
+        <tbody id="tablaCategorias">
+
+        </tbody>
+
+    </table>
+
+</section>
+
+</main>
+
+<script src="js/datos.js"></script>
+<script src="js/estadisticas.js"></script>
+
+</body>
+</html>
