@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BookVerse | Contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+    <div class="logo">
+        📚 BookVerse
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="autores.html">Autores</a></li>
+        <li><a href="favoritos.html">Favoritos</a></li>
+        <li><a href="estadisticas.html">Estadísticas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="contacto-header">
+
+    <h1>Contáctanos</h1>
+
+    <p>
+        ¿Tienes alguna sugerencia para BookVerse?
+        Envíanos un mensaje.
+    </p>
+
+</section>
+
+<section class="contacto-container">
+
+<form id="formContacto">
+
+    <div class="campo">
+
+        <label for="nombre">
+            Nombre completo
+        </label>
+
+        <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+        >
+
+    </div>
+
+    <div class="campo">
+
+        <label for="correo">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correo"
+            name="correo"
+            required
+        >
+
+    </div>
+
+    <div class="campo">
+
+        <label for="asunto">
+            Asunto
+        </label>
+
+        <select
+            id="asunto"
+            name="asunto"
+            required
+        >
+            <option value="">
+                Selecciona una opción
+            </option>
+
+            <option>
+                Recomendación de libro
+            </option>
+
+            <option>
+                Reportar problema
+            </option>
+
+            <option>
+                Comentario general
+            </option>
+
+        </select>
+
+    </div>
+
+    <div class="campo">
+
+        <label for="mensaje">
+            Mensaje
+        </label>
+
+        <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="6"
+            required
+        ></textarea>
+
+    </div>
+
+    <button
+        type="submit"
+        class="btn-enviar"
+    >
+        Enviar mensaje
+    </button>
+
+</form>
+
+</section>
+
+</main>
+
+<script src="js/contacto.js"></script>
+
+</body>
+</html>
